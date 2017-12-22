@@ -2,9 +2,9 @@ var mwsApiExtended = require("mws-api-extended")
 var lodash = require("lodash");
 var fast = require("fast-json-stable-stringify")
 const mws = new mwsApiExtended({
- accessKeyId: 'AKIAJ2QXO7NA4FHVOJZA',
-  secretAccessKey: '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',
-  merchantId: 'A3K0CIUJGFCGK3',
+ accessKeyId: '',
+  secretAccessKey: '',
+  merchantId: '',
   meta: {
     retry: true, // retry requests when throttled
     next: true, // auto-paginate
